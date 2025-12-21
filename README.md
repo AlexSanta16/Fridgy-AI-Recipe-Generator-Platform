@@ -66,7 +66,7 @@ The application includes a restricted **Admin Panel** accessible only to Admins:
 | :--- | :--- |
 | ![Grid](screenshots/IngredientsSection.png) | ![Generate](screenshots/GenerateRecipe.png) |
 
-| AI Recipe (Modal) | Full Recipe Page |
+| AI Recipe | Full Recipe Page |
 | :--- | :--- |
 | ![Recipe Modal](screenshots/Recipe.png) | ![Recipe Page](screenshots/RecipePage.png) |
 
