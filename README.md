@@ -57,33 +57,45 @@ The application includes a restricted **Admin Panel** accessible only to Admins:
 
 ## 📸 Screenshots
 
-### 👤 User Experience
+### 👤 User Experience & Core Flow
 | Home & Landing | How it Works |
 | :--- | :--- |
 | ![Home](screenshots/HomePage1.png) | ![Guide](screenshots/HowItWorks.png) |
 
-| Ingredient Selection | AI Recipe Output |
+| Ingredient Selection | Ready to Cook |
 | :--- | :--- |
-| ![Grid](screenshots/IngredientsSection.png) | ![Recipe](screenshots/Recipe.png) |
+| ![Grid](screenshots/IngredientsSection.png) | ![Generate](screenshots/GenerateRecipe.png) |
 
-### 🛡️ Live Admin Panel
-| Real-time Statistics | Ingredient Moderation |
+| AI Recipe (Modal) | Full Recipe Page |
+| :--- | :--- |
+| ![Recipe Modal](screenshots/Recipe.png) | ![Recipe Page](screenshots/RecipePage.png) |
+
+### 🌍 Community & Features
+| Community Explore | Community Creations |
+| :--- | :--- |
+| ![Explore](screenshots/Explore.png) | ![Feed](screenshots/Community.png) |
+
+| Reviews & Ratings | Suggest Ingredient |
+| :--- | :--- |
+| ![Reviews](screenshots/Review.png) | ![Suggest](screenshots/AddIngredients.png) |
+
+### 🛡️ Live Admin Panel 
+| Statistics Dashboard | Ingredient Moderation |
 | :--- | :--- |
 | ![Stats](screenshots/Dashboard1.png) | ![Moderation](screenshots/Dashboard2.png) |
 
-| User Database | New Ingredient Request |
+| User Database |
+| :--- |
+| ![Users](screenshots/Dashboard3.png) |
+
+### 🔐 Authentication & Profile
+| Login Interface | Register Account |
 | :--- | :--- |
-| ![Users](screenshots/Dashboard3.png) | ![Suggest](screenshots/AddIngredients.png) |
+| ![Login](screenshots/LogIn.png) | ![Register](screenshots/Register.png) |
 
-### 🔐 Community & Auth
-| Community Feed | Reviews & Feedback |
-| :--- | :--- |
-| ![Explore](screenshots/Explore.png) | ![Reviews](screenshots/Review.png) |
+| User Profile & Favorites |
+| :--- |
+| ![Profile](screenshots/Profile.png) |
 
-| Login Interface | User Profile |
-| :--- | :--- |
-| ![Login](screenshots/LogIn.png) | ![Profile](screenshots/Profile.png) |
-
-
-
+---
 © 2025 Fridgy - Smart recipes from your ingredients.
