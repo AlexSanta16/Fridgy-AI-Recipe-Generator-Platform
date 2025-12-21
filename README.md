@@ -2,87 +2,88 @@
 
 **Fridgy** is a full-stack web application designed to reduce food waste. It allows users to manage a virtual pantry and transform available ingredients into professional, step-by-step recipes using the **OpenAI API**.
 
+**Tech Stack:** Spring Boot • React • MySQL • OpenAI API  
+
 ---
 
 ## 🚀 Key Features
 
 * **Smart Ingredient Selection:** A visual grid interface where users select ingredients to add to their "virtual fridge."
-* **AI Recipe Generation:** Integrated **OpenAI API** that processes selected items to generate unique recipes with preparation times and cooking steps.
-* **Community Explore:** A public feed where users can discover and view recipes created by others in the community.
-* **User Accounts & Favorites:** Secure registration system where users can save their favorite AI-generated recipes.
-* **Review System:** An interactive feature for users to rate and comment on recipes.
-* **Ingredient Suggestion:** A flow for users to request new ingredients, which are then sent to the admin for approval.
+* **AI Recipe Generation:** Integrated **OpenAI API** that generates unique recipes with preparation times and cooking steps.
+* **Community Explore:** Discover recipes created by other users.
+* **User Accounts & Favorites:** Save favorite AI-generated recipes with secure registration.
+* **Review System:** Rate and comment on recipes.
+* **Ingredient Suggestion:** Request new ingredients, which are sent to the admin for approval.
 
 ---
 
 ## 🛡️ Live Admin Dashboard (Admin Only)
 
-The application includes a restricted **Admin Panel** designed for platform management. Only users with the **Admin role** can access this area to see:
-* **Live Statistics:** Real-time data on total users, recipes created, and total favorites across the platform.
-* **Trending Ingredients:** Live tracking of which ingredients are most frequently used by the community.
-* **Moderation Tools:** A dedicated interface to approve or reject new ingredient requests and manage the user database.
+The application includes a restricted **Admin Panel** accessible only to Admins:  
+* **Live Statistics:** Real-time data on users, recipes, and favorites.  
+* **Trending Ingredients:** Track most-used ingredients by the community.  
+* **Moderation Tools:** Approve or reject new ingredient requests and manage users.  
 
 ---
 
-## 🛠️ Detailed Tech Stack
+## 🛠️ Tech & Architecture
 
-### **Backend (Spring Boot - MVC Architecture)**
-The backend is built using a clean **MVC (Model-View-Controller)** pattern to ensure scalability and organized code:
-* **Controllers:** Handle incoming REST API requests and manage communication with the frontend.
-* **Services:** The "brain" of the app, where the business logic and OpenAI API integration live.
-* **Repositories:** Interface with the MySQL database using Spring Data JPA.
-* **Models/Entities:** Define the data structures for Users, Ingredients, and Recipes.
-* **Spring Security:** Handles authentication and role-based access (Admin vs. Regular User).
+### **Backend (Spring Boot - MVC)**
+* **Controllers:** Handle API requests.  
+* **Services:** Business logic and OpenAI integration.  
+* **Repositories:** Interface with MySQL via Spring Data JPA.  
+* **Models/Entities:** Define Users, Ingredients, and Recipes.  
+* **Spring Security:** Authentication and role-based access.  
 
 ### **Frontend (React.js)**
-The user interface is built for speed and a smooth experience:
-* **Component-Based Architecture:** Reusable UI components (buttons, cards, modals) for a consistent design.
-* **Modern UI/UX:** A responsive layout with a clean grid system for ingredient selection.
-* **State Management:** Efficiently handles user input, ingredient lists, and real-time UI updates.
+* **Component-Based:** Reusable UI components for consistent design.  
+* **Modern UI/UX:** Responsive grid system for ingredient selection.  
+* **State Management:** Real-time updates of user input and ingredient lists.  
 
 ### **AI & Database**
-* **OpenAI API:** Used as the core logic for turning ingredient lists into high-quality culinary recipes.
-* **MySQL:** A relational database used for persistent storage of all application data.
+* **OpenAI API:** Converts ingredient lists into high-quality recipes.  
+* **MySQL:** Stores all application data persistently.  
 
 ---
 
 ## 🧠 System Logic: How it Works
 
-1.  **Selection:** The user picks ingredients from the React interface.
-2.  **Request:** The **Controller** receives the data and passes it to the **Service** layer.
-3.  **AI Integration:** The Service layer builds a prompt and calls the **OpenAI API**.
-4.  **Live Updates:** Once a recipe is saved, the **Admin Dashboard** updates its statistics in real-time.
+1. **Selection:** Users pick ingredients from the React interface.  
+2. **Request:** Data is sent to the **Controller** and passed to the **Service**.  
+3. **AI Integration:** Service builds a prompt and calls the **OpenAI API**.  
+4. **Live Updates:** Saved recipes update Admin Dashboard statistics in real-time.  
 
 ---
 
 ## 📸 Screenshots
 
-### 🏠 User Experience & Core Flow
+### 👤 User Experience
 | Home & Landing | How it Works |
 | :--- | :--- |
-| ![Home](screenshots/HomePage1.jpg) | ![Guide](screenshots/HowItWorks.jpg) |
+| ![Home](screenshots/HomePage1.png) | ![Guide](screenshots/HowItWorks.png) |
 
 | Ingredient Selection | AI Recipe Output |
 | :--- | :--- |
-| ![Grid](screenshots/IngredientsSection.jpg) | ![Recipe](screenshots/Recipe.jpg) |
+| ![Grid](screenshots/IngredientsSection.png) | ![Recipe](screenshots/Recipe.png) |
 
-### 🛡️ Live Admin Panel (Restricted)
+### 🛡️ Live Admin Panel
 | Real-time Statistics | Ingredient Moderation |
 | :--- | :--- |
-| ![Stats](screenshots/Dashboard1.jpg) | ![Moderation](screenshots/Dashboard2.jpg) |
+| ![Stats](screenshots/Dashboard1.png) | ![Moderation](screenshots/Dashboard2.png) |
 
 | User Database | New Ingredient Request |
 | :--- | :--- |
-| ![Users](screenshots/Dashboard3.jpg) | ![Suggest](screenshots/AddIngredients.jpg) |
+| ![Users](screenshots/Dashboard3.png) | ![Suggest](screenshots/AddIngredients.png) |
 
-### 🔐 Community & Authentication
+### 🔐 Community & Auth
 | Community Feed | Reviews & Feedback |
 | :--- | :--- |
-| ![Explore](screenshots/Explore.jpg) | ![Reviews](screenshots/Review.jpg) |
+| ![Explore](screenshots/Explore.png) | ![Reviews](screenshots/Review.png) |
 
 | Login Interface | User Profile |
 | :--- | :--- |
-| ![Login](screenshots/LogIn.jpg) | ![Profile](screenshots/Profile.jpg) |
+| ![Login](screenshots/LogIn.png) | ![Profile](screenshots/Profile.png) |
 
----
+
+
 © 2025 Fridgy - Smart recipes from your ingredients.
