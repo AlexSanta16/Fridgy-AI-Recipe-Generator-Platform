@@ -98,4 +98,4 @@ The application includes a restricted **Admin Panel** accessible only to Admins:
 | ![Profile](screenshots/Profile.png) |
 
 ---
-© 2025 Fridgy - Smart recipes from your ingredients.
+© 2026 Fridgy - Smart recipes from your ingredients.
