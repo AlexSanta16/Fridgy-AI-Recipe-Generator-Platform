@@ -1,4 +1,4 @@
-# 🍳 Fridgy - Your AI-Powered Kitchen Assistant
+# Fridgy - Your AI-Powered Kitchen Assistant
 
 **Fridgy** is a full-stack web application designed to reduce food waste. It allows users to manage a virtual pantry and transform available ingredients into professional, step-by-step recipes using the **OpenAI API**.
 
@@ -6,7 +6,7 @@
 
 ---
 
-## 🚀 Key Features
+## Key Features
 
 * **Smart Ingredient Selection:** A visual grid interface where users select ingredients to add to their "virtual fridge."
 * **AI Recipe Generation:** Integrated **OpenAI API** that generates unique recipes with preparation times and cooking steps.
@@ -17,7 +17,7 @@
 
 ---
 
-## 🛡️ Live Admin Dashboard (Admin Only)
+## Live Admin Dashboard (Admin Only)
 
 The application includes a restricted **Admin Panel** accessible only to Admins:  
 * **Live Statistics:** Real-time data on users, recipes, and favorites.  
@@ -26,7 +26,7 @@ The application includes a restricted **Admin Panel** accessible only to Admins:
 
 ---
 
-## 🛠️ Tech & Architecture
+## Tech & Architecture
 
 ### **Backend (Spring Boot - MVC)**
 * **Controllers:** Handle API requests.  
@@ -46,7 +46,7 @@ The application includes a restricted **Admin Panel** accessible only to Admins:
 
 ---
 
-## 🧠 System Logic: How it Works
+## System Logic: How it Works
 
 1. **Selection:** Users pick ingredients from the React interface.  
 2. **Request:** Data is sent to the **Controller** and passed to the **Service**.  
@@ -55,9 +55,9 @@ The application includes a restricted **Admin Panel** accessible only to Admins:
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
-### 👤 User Experience & Core Flow
+### User Experience & Core Flow
 | Home & Landing | How it Works |
 | :--- | :--- |
 | ![Home](screenshots/HomePage1.png) | ![Guide](screenshots/HowItWorks.png) |
@@ -70,7 +70,7 @@ The application includes a restricted **Admin Panel** accessible only to Admins:
 | :--- | :--- |
 | ![Recipe Modal](screenshots/Recipe.png) | ![Recipe Page](screenshots/RecipePage.png) |
 
-### 🌍 Community & Features
+### Community & Features
 | Community Explore | Community Creations |
 | :--- | :--- |
 | ![Explore](screenshots/Explore.png) | ![Feed](screenshots/Community.png) |
@@ -79,7 +79,7 @@ The application includes a restricted **Admin Panel** accessible only to Admins:
 | :--- | :--- |
 | ![Reviews](screenshots/Review.png) | ![Suggest](screenshots/AddIngredients.png) |
 
-### 🛡️ Live Admin Panel 
+### Live Admin Panel 
 | Statistics Dashboard | Ingredient Moderation |
 | :--- | :--- |
 | ![Stats](screenshots/Dashboard1.png) | ![Moderation](screenshots/Dashboard2.png) |
@@ -88,7 +88,7 @@ The application includes a restricted **Admin Panel** accessible only to Admins:
 | :--- |
 | ![Users](screenshots/Dashboard3.png) |
 
-### 🔐 Authentication & Profile
+### Authentication & Profile
 | Login Interface | Register Account |
 | :--- | :--- |
 | ![Login](screenshots/LogIn.png) | ![Register](screenshots/Register.png) |
