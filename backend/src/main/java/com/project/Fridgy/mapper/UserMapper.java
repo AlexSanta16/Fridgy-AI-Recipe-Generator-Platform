@@ -12,7 +12,6 @@ public class UserMapper {
         UserDTO userDTO=new UserDTO();
         userDTO.setEmail(user.getEmail());
         userDTO.setName(user.getName());
-        userDTO.setPassword(user.getPassword());
         userDTO.setRole(user.getRole());
         userDTO.setRecipes(user.getRecipes());
         userDTO.setFavoriteRecipes(user.getFavoriteRecipes());
