@@ -13,13 +13,13 @@ import java.time.LocalDate;
 @Service
 public class AdminStatsService {
 
-    @Autowired
+    
     private final UserRepository userRepository;
 
-    @Autowired
+    
     private final RecipeRepository recipeRepository;
 
-    @Autowired
+    
     private final IngredientRepository ingredientRepository;
 
     public AdminStatsService(UserRepository userRepository,
