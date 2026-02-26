@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 @CrossOrigin(origins = "http://localhost:3000")
 public class AdminStatsController {
 
-    @Autowired
+    
     private final AdminStatsService statsService;
 
     public AdminStatsController(AdminStatsService statsService) {
