@@ -11,7 +11,6 @@ public class UserDTO {
     private Long id;
     private String name;
     private String email;
-    private String password;
     private Role role;
     private List<Recipe> recipes;
     private List<Recipe> favoriteRecipes;
